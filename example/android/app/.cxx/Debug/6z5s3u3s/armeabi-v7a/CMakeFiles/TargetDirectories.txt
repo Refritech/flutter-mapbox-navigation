@@ -1,0 +1,2 @@
+C:/Users/gelson.domingos/code/refriango/cross-go-app/plugins/mapbox_navigation/example/android/app/.cxx/Debug/6z5s3u3s/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/gelson.domingos/code/refriango/cross-go-app/plugins/mapbox_navigation/example/android/app/.cxx/Debug/6z5s3u3s/armeabi-v7a/CMakeFiles/rebuild_cache.dir

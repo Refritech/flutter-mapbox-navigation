@@ -1,0 +1,1 @@
+C:\Users\gelson.domingos\code\refriango\cross-go-app\plugins\mapbox_navigation\example\build\app\intermediates\cxx\Debug\1t14m6z2\obj\x86
