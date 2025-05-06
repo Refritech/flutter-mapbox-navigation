@@ -16,40 +16,40 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
   String? _instruction;
   final _origin = WayPoint(
       name: "Way Point 1",
-      latitude: 38.9111117447887,
-      longitude: -77.04012393951416,
+      latitude: -8.810956,
+      longitude: 13.288946,
       isSilent: true);
   final _stop1 = WayPoint(
       name: "Way Point 2",
-      latitude: 38.91113678979344,
-      longitude: -77.03847169876099,
+      latitude: -8.826876,
+      longitude: 13.271914,
       isSilent: true);
   final _stop2 = WayPoint(
       name: "Way Point 3",
-      latitude: 38.91040213277608,
-      longitude: -77.03848242759705,
+      latitude: -8.815353,
+      longitude: 13.325924,
       isSilent: false);
   final _stop3 = WayPoint(
       name: "Way Point 4",
-      latitude: 38.909650771013034,
-      longitude: -77.03850388526917,
+      latitude: -8.825891,
+      longitude: 13.317255,
       isSilent: true);
   final _destination = WayPoint(
       name: "Way Point 5",
-      latitude: 38.90894949285854,
-      longitude: -77.03651905059814,
+      latitude: -8.817438,
+      longitude: 13.310734,
       isSilent: false);
 
   final _home = WayPoint(
       name: "Home",
-      latitude: 37.77440680146262,
-      longitude: -122.43539772352648,
+      latitude: -8.822176,
+      longitude: 13.318137,
       isSilent: false);
 
   final _store = WayPoint(
       name: "Store",
-      latitude: 37.76556957793795,
-      longitude: -122.42409811526268,
+      latitude: -8.821607,
+      longitude: 13.300722,
       isSilent: false);
 
   bool _isMultipleStop = false;
