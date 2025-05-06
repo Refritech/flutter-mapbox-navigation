@@ -15,41 +15,41 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
   String? _platformVersion;
   String? _instruction;
   final _origin = WayPoint(
-      name: "Way Point 1",
-      latitude: -8.810956,
-      longitude: 13.288946,
+      name: "Largo da Independência",
+      latitude: -8.814072,
+      longitude: 13.229108,
       isSilent: true);
   final _stop1 = WayPoint(
-      name: "Way Point 2",
-      latitude: -8.826876,
-      longitude: 13.271914,
+      name: "Palácio de Ferro",
+      latitude: -8.815820,
+      longitude: 13.231123,
       isSilent: true);
   final _stop2 = WayPoint(
-      name: "Way Point 3",
-      latitude: -8.815353,
-      longitude: 13.325924,
+      name: "Estádio 11 de Novembro",
+      latitude: -8.918768,
+      longitude: 13.276978,
       isSilent: false);
   final _stop3 = WayPoint(
-      name: "Way Point 4",
-      latitude: -8.825891,
-      longitude: 13.317255,
+      name: "Ilha de Luanda",
+      latitude: -8.765453,
+      longitude: 13.264775,
       isSilent: true);
   final _destination = WayPoint(
-      name: "Way Point 5",
-      latitude: -8.817438,
-      longitude: 13.310734,
+      name: "Fortaleza de São Miguel",
+      latitude: -8.814013,
+      longitude: 13.229407,
       isSilent: false);
 
   final _home = WayPoint(
-      name: "Home",
-      latitude: -8.822176,
-      longitude: 13.318137,
+      name: "Universidade Agostinho Neto",
+      latitude: -8.897167,
+      longitude: 13.246233,
       isSilent: false);
 
   final _store = WayPoint(
-      name: "Store",
-      latitude: -8.821607,
-      longitude: 13.300722,
+      name: "Belas Shopping",
+      latitude: -8.916591,
+      longitude: 13.234545,
       isSilent: false);
 
   bool _isMultipleStop = false;
@@ -97,6 +97,7 @@ class _SampleNavigationAppState extends State<SampleNavigationApp> {
     setState(() {
       _platformVersion = platformVersion;
     });
+
   }
 
   @override

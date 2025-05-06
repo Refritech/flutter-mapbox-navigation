@@ -88,26 +88,37 @@ android {
 }
 
 dependencies {
-    // Mapbox Navigation SDK
+    // Mapbox Navigation SDK (mantido)
     implementation "com.mapbox.navigation:copilot:2.16.0"
     implementation "com.mapbox.navigation:ui-app:2.16.0"
     implementation "com.mapbox.navigation:ui-dropin:2.16.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // Logging
     implementation 'com.jakewharton.timber:timber:4.7.1'
-    //implementation 'com.google.code.gson:gson:2.13.0'
+
+    // Gson (rebaixado para compatibilidade com Mapbox)
     implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Multidex (última versão ainda é 2.0.1)
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation "androidx.core:core-ktx:1.9.0"
-    implementation "com.google.android.material:material:1.8.0"
+
+    // AndroidX e Material Design (últimas versões até maio/2025)
+    implementation "androidx.core:core-ktx:1.13.1"
+    implementation "com.google.android.material:material:1.12.0"
     implementation "androidx.appcompat:appcompat:1.7.0"
     implementation "androidx.cardview:cardview:1.0.0"
-    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
-    implementation "com.google.android.gms:play-services-location:21.0.1"
-    debugImplementation "com.squareup.leakcanary:leakcanary-android:2.9.1"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
-    implementation 'androidx.annotation:annotation:1.6.0'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "androidx.constraintlayout:constraintlayout:2.2.1"
+    implementation "com.google.android.gms:play-services-location:21.3.0"
 
+    // Leak detection (dev only)
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:2.12"
+
+    // Coroutines (atualizado)
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+
+    // AndroidX extras
+    implementation 'androidx.annotation:annotation:1.7.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
